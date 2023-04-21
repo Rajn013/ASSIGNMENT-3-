@@ -1,0 +1,77 @@
+que 1 . . Why are functions advantageous to have in your programs?
+
+ans.     Allow for code reuse, which saves time and reduces errors
+         Enable modularity by breaking down programs into smaller, more manageable modules
+         Encapsulate complex logic and algorithms, making code easier to use and understand
+         Provide a level of abstraction that hides implementation details and reduces complexity
+         Improve code organization and readability by breaking down programs into smaller, more understandable parts.
+
+que 2. When does the code in a function run: when it's specified or when it's called?
+
+ans. The code in a function runs when it's called, not when it's specified. The code inside a function is executed only when the function is called by its name in the program.
+
+que 3. What statement creates a function ?
+
+ans .The "def" statement creates a function in Python.
+
+To define a function, you use the "def" keyword followed by the function name, parentheses, and a colon. The body of the function, where you specify what the function should do, is indented underneath the function definition line.
+
+que 4. What is the difference between a function and a function call?
+
+ans.a function is a block of code that defines a set of actions or calculations, while a function call is the actual use of that function to perform those actions or calculations with specific inputs.
+
+que 5. How many global scopes are there in a Python program? How many local scopes?
+
+ans.  Python program has only one global scope, and local scopes are created whenever a function is called.
+
+que 6. What happens to variables in a local scope when the function call returns?
+
+ans . The  local variables are destroyed when the function call returns, and they cannot be accessed from outside the function.
+
+que 7. What is the concept of a return value? Is it possible to have a return value in an expression?
+
+
+ans . the concept of a return value refers to the value that a function sends back to the caller after it has completed its execution.
+
+      When a function is called, it can optionally return a value using the "return" statement. This value can be of any data type, such as an integer, string, list, or even another function.
+       
+      It is possible to have a return value in an expression. This means that the value returned by a function can be used as part of a larger expression or statement.
+
+que 8.  If a function does not have a return statement, what is the return value of a call to that function?
+
+
+ans.  if a function does not have a return statement, the return value of a call to that function is None.
+
+
+que 9. How do you make a function variable refer to the global variable?
+
+
+ans. In Python, you can make a function variable refer to a global variable by using the global keyword inside the function.
+
+
+que 10. What is the data type of None?
+
+ans . The data type of None is NoneType. In Python, None is a special value that represents the absence of a value. It is commonly used to indicate that a variable or function argument does not have a meaningful value.
+
+que 11. What does the sentence import areallyourpetsnamederic do?
+
+ans. The sentence import are all your pets name deric is not a valid Python module or package name, so attempting to import it would result in a ModuleNotFoundError error.
+
+que 12. If you had a bacon() feature in a spam module, what would you call it after importing spam?
+
+
+ans. If you had a bacon() function in a spam module, you could call it after importing spam by using the dot notation to reference the function as follows:
+     import spam
+
+     spam.bacon()
+
+que 13. What can you do to save a programme from crashing if it encounters an error?
+
+ans. a Python program from crashing if it encounters an error, you can use exception handling with a try-except block.
+
+
+que 14. What is the purpose of the try clause? What is the purpose of the except clause?
+
+
+ANS. The purpose of the try clause is to attempt to execute code that may fail without causing the program to crash.
+     The purpose of the except clause is to provide a fallback code block that can handle errors or exceptions raised by the try clause, and prevent the program from crashing.
